@@ -1,6 +1,14 @@
 /**
+ * @dfleta
+ * 
  * global vs local
  * nested scopes
+ * 
+ * Function definitions can be nested. 
+ * Each function has its own local scope, so it is possible 
+ * to have several nested layers of local scope.
+ * 
+ * Javascript, the Definitive Guide. David Flanagan.
  */
 
 var scope = "global scope"; // declaration and initialization of a variable in the global scope

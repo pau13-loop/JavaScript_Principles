@@ -1,5 +1,12 @@
 /**
- * global vs local
+ * @dfleta
+ * 
+ * Ejemplos de uso de Let:
+ * - Reemplazar var en bucles for
+ * - Definicion de variables en un bloque:
+ *   block vs lexical scope
+ * 
+ *  Javascript, the Definitive Guide. David Flanagan.
  */
 
 var scope = "global";   // we declare a variable in the global scope  

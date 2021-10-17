@@ -1,7 +1,16 @@
 /**
+ * @dfleta
+ * 
  * global vs local
  * function scope and hoisting
+ * 
+ * In the following code, the variables i, j, and k 
+ * are declared in different spots, but all have the same
+ * scope. All three are defined throughout the body of the function.
+ * 
+ *  Javascript, the Definitive Guide. David Flanagan.
  */
+
 
 function test(o) {
 
