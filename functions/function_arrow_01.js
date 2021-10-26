@@ -31,3 +31,14 @@ const square2 = x => x * x;
 
 console.log(square1(3));
 console.log(square2(3));
+
+/**
+ * TODO
+ * Add a function two times with just a single parameter and the first one adding the respective curly braces and in the second one avoid the curly braces
+ */
+
+const withCurlyBraces = (x) => { return x * x / 2; };
+const withOutCurlyBraces = x => x * x / 2;
+
+console.log(withCurlyBraces(10));
+console.log(withOutCurlyBraces(10));
