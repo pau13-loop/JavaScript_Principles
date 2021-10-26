@@ -27,3 +27,15 @@
 calculator.add();                   // A method invocation to compute 1+1.
 
 console.log(calculator.result);     // => 2  Creamos una nueva propiedad del objeto al vuelo
+
+/**
+ * TODO
+ * Modificamos el valor de los operadores, a continuación llamamos a la variable que referencia a la función, por consecuente actualiza el resultado y cuando printeamos por pantalla la variable que se encuentra dentro de la función referenciada, obtenemos el resultado actualizado
+ * 
+ * */ 
+calculator.operand1 = 4;
+calculator.operand2 = 4;
+
+calculator.add();
+
+console.log(calculator.result)
