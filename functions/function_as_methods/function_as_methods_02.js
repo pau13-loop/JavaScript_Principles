@@ -21,11 +21,18 @@
         console.log(this === o);    // Prints "true": this is the object o.
         f();                        //  Now call the helper function f().
 
+
         function f() {              // A nested function f
             console.log(this === o); // "false": this is global or undefined
             console.log(self === o); // "true": self is the outer this value.
+            console.log(this);
+            console.log(self);
         }       
     }   
 };
 
 o.m();                              // Invoke the method m on the object o.
+/**
+ * TODO
+ * Into the var "self" we save the reference of "this" to the global object called "o". If we try to access the global object from a nested function we have to call the reference to this function insted the "this" reserved word reference
+ */
