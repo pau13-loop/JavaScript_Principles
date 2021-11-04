@@ -63,4 +63,5 @@ console.log("theta : " + p.theta);
 /**
  * TODO 
  * If we just call "p.r" we will access the getter of the obj and execute it. But if we call "p.r" and we attribute a new value, we will be executing the setter of the obj
+ * 
  */
