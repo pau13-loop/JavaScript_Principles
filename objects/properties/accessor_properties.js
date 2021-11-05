@@ -9,10 +9,9 @@
  * 
  * Accessor properties do not have a writable attribute
  * as data properties do. 
- * - If a property has both a getter and a setter method, 
- * it is a read/write property. 
- * - If it has only a getter method, it is a read-only property. 
- * - If it has only a setter method, it is a write-only property 
+ ** - If a property has both a getter and a setter method, it is a read/write property. 
+ ** - If it has only a getter method, it is a read-only property. 
+ ** - If it has only a setter method, it is a write-only property 
  * (something that is not possible with data properties) 
  * and attempts to read it always evaluate to undefined.
  * 
